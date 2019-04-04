@@ -8,7 +8,7 @@ print(inventory)
 del inventory['backpack'][1]
 print(inventory)
 so = int(input(" nhập số muốn thêm : "))
-inventory['gold'] = inventory.get('gold') +so 
+inventory['gold'] += so 
 print(inventory['gold'])
-print(inventory['pouch'])
+
 
