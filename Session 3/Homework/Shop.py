@@ -4,10 +4,10 @@ while True :
     if chon != 'C' and chon != 'D' and chon != 'U' and chon != 'R' and chon != 'thoat' :
         chon = input( ' choose again pls :' ) 
 
-    else :
+    elif chon == 'thoat' :
         break
-while chon != 'thoat' :
-    if chon == 'C':
+
+    elif chon == 'C':
         print("our items :")
         for i in range(len(our_items)) :
          print(our_items[i], ',',end = '' )
@@ -22,16 +22,17 @@ while chon != 'thoat' :
         our_items[1] = 'skirt'
         for i in range(len(our_items)) :
             print(our_items[i],',',end ='')
-    elif chon == 'D':
+    else :
         if len(our_items) < 3  :
             print("you can't delete position 3")
         else :
             del our_items[2]
             for i in range(len(our_items)) :
              print(our_items[i],',',end ='')
-    else :
-        break
-    chon=input('chon tiep')
+    
+    #chon = input('moi nhap lai :')
+
+    
 
 
             
