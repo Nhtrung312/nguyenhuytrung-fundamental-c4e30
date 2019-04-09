@@ -1,0 +1,5 @@
+khai báo hàm  def <tên hàm>() :
+lI?T kê các ki?n th?c , luu ý trong bài h?c hôm nay ( hàm function ) 
+tìm web crowler 
+web crowler 
+ html

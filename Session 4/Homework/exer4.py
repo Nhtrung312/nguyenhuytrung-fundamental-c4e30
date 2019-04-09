@@ -19,5 +19,17 @@ if choice2 == 2 :
 else :
     b = 0
 print('You correctly answer ',a+b,'out of 2 question') 
+
+
+[
+    {
+        'cauhoi':'noidung',
+        'dapan':'',
+        'correct_answer':'',
+    },
+    {
+
+    }
+]
     
         
